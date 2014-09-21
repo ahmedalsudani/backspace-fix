@@ -21,7 +21,7 @@ function stopDefaultBackspaceBehaviour(event) {
         var elements = "HTML, BODY, TABLE, TBODY, TR, TD, DIV";
         var d = event.srcElement || event.target;
         var regex = new RegExp(d.tagName.toUpperCase());
-        if (! d.contentEditable) {
+        if (d.contentEditable != true) {
             if (regex.test(elements)) {
                 event.preventDefault ? event.preventDefault() : event.returnValue = false;
             }
