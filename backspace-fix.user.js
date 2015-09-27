@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name            Fuck backspace
+// @name            Backspace Fix
 // @namespace       ahmed.al-sudani.com/projects/backspace-back-fix
 // @version         0.1.1
 // @description     Script that prevents the default backspace behavior. Seems to work just fine everywhere.
 //                  License: MIT License
 // @match           http*://*/*
 // @run-at          document-start
-// @copyright       2014, Ahmed Al-Sudani
+// @copyright       2014-2015, Ahmed Al-Sudani
 // ==/UserScript==
 
 // As per http://stackoverflow.com/a/25099617/1009017
